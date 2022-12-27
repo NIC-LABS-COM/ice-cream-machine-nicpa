@@ -1,0 +1,199 @@
+{
+	"Nodes": [
+		{
+			"id": "1",
+			"lane": "0",
+			"title": "Matéria-prima: Do estoque",
+			"titleAbbreviation": "RMS",
+			"children": [
+				10,
+				11
+			],
+			"state": "Positivo",
+			"stateText": "Entregue",
+			"focused": false,
+			"texts": [ "Matéria-prima do estoque" ]
+		}, {
+			"id": "2",
+			"lane": "0",
+			"title": "Matéria prima: Comprada",
+			"titleAbbreviation": "RMP",
+			"children": [
+				10,
+				11
+			],
+			"state": "Positivo",
+			"stateText": "Entregue",
+			"focused": false,
+			"texts": [ "Matéria-prima da compra" ]
+		}, {
+			"id": "3",
+			"lane": "0",
+			"title": "Peças de reposição: Compradas",
+			"titleAbbreviation": "SPP",
+			"children": [ 41 ],
+			"state": "Negativo",
+			"stateText": "Não entregue",
+			"focused": true,
+			"texts": [ "Peças de reposição para dispensador de gelo" ]
+		}, {
+			"id": "10",
+			"lane": "1",
+			"title": "Fabricação: Congelador",
+			"titleAbbreviation": "MAF",
+			"children": [ 20 ],
+			"state": "Positivo",
+			"stateText": "Finalizado",
+			"focused": false,
+			"texts": [
+				"Vaporizador",
+				"Compressor"
+			]
+		}, {
+			"id": "11",
+			"lane": "1",
+			"title": "Fabricação: peças eletrônicas",
+			"titleAbbreviation": "MAE",
+			"children": [ 20 ],
+			"state": "Positivo",
+			"stateText": "Finalizado",
+			"focused": false,
+			"texts": [
+				"Unidade de controle",
+				"Cabeamento"
+			]
+		}, {
+			"id": "12",
+			"lane": "1",
+			"title": "Fabricação: Caixa",
+			"titleAbbreviation": "MAC",
+			"children": [ 21 ],
+			"state": "Positivo",
+			"stateText": "Finalizado",
+			"focused": false,
+			"texts": [
+				"Caso",
+				"Partes mecânicas"
+			]
+		}, {
+			"id": "13",
+			"lane": "1",
+			"title": "Fabricação: dispensador de gelo",
+			"titleAbbreviation": "MAID",
+			"children": [ 21 ],
+			"state": "Negativo",
+			"stateText": "Não finalizado",
+			"focused": false,
+			"texts": []
+		}, {
+			"id": "20",
+			"lane": "2",
+			"title": "Montagem: Unidade principal",
+			"titleAbbreviation": "AMU",
+			"children": [ 22 ],
+			"state": "Positivo",
+			"stateText": "Finalizado",
+			"focused": false,
+			"texts": [
+				"Congelador",
+				"Partes eletrônicas"
+			]
+		}, {
+			"id": "21",
+			"lane": "2",
+			"title": "Montagem: Estojo com dispenser",
+			"titleAbbreviation": "ASP",
+			"children": [ 22 ],
+			"state": "Crítico",
+			"stateText": "At risk",
+			"focused": false,
+			"texts": [
+				"Dispensador de gelo de montagem",
+				"com o caso"
+			]
+		}, {
+			"id": "22",
+			"lane": "2",
+			"title": "Montagem: Final",
+			"titleAbbreviation": "ASF",
+			"children": [ 41 ],
+			"state": "Crítico",
+			"stateText": "Em risco",
+			"focused": false,
+			"texts": []
+		}, {
+			"id": "30",
+			"lane": "3",
+			"title": "Campanha de Marketing",
+			"titleAbbreviation": "MC",
+			"children": [ 41 ],
+			"state": "Positivo",
+			"stateText": "Feito",
+			"focused": false,
+			"texts": []
+		}, {
+			"id": "31",
+			"lane": "3",
+			"title": "Avaliação da campanha",
+			"titleAbbreviation": "CE",
+			"children": [ 41 ],
+			"state": "Neutro",
+			"stateText": "Pendente",
+			"focused": false,
+			"texts": [ "Resultados não concluídos" ]
+		}, {
+			"id": "41",
+			"lane": "4",
+			"title": "Entrega",
+			"titleAbbreviation": "DEL",
+			"children": [ 51 ],
+			"state": "Critical",
+			"stateText": "At risk",
+			"focused": true,
+			"texts": []
+		}, {
+			"id": "51",
+			"lane": "5",
+			"title": "Fatura",
+			"titleAbbreviation": "INV",
+			"children": null,
+			"state": "Planejado",
+			"stateText": null,
+			"focused": false,
+			"texts": []
+		}
+	],
+	"Lanes": [
+		{
+			"id": "0",
+			"icon": "sap-icon://cart-3",
+			"label": "Pedido",
+			"position": 0
+		}, {
+			"id": "1",
+			"icon": "sap-icon://factory",
+			"label": "Manufatura",
+			"position": 1
+		}, {
+			"id": "2",
+			"icon": "sap-icon://puzzle",
+			"label": "Conjunto",
+			"position": 2
+		}, {
+			"id": "3",
+			"icon": "sap-icon://marketing-campaign",
+			"label": "Marketing",
+			"position": 3
+		}, {
+			"id": "4",
+			"icon": "sap-icon://shipping-status",
+			"label": "Entrega",
+			"position": 4
+		}, {
+			"id": "5",
+			"icon": "sap-icon://payment-approval",
+			"label": "Pagamento",
+			"position": 5
+		}
+	]
+}

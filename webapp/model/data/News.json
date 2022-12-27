@@ -1,0 +1,18 @@
+{
+	"News": [
+		{
+			"content": "O melhor sorvete que comi em anos!",
+			"subheader": "Early Adopter da máquina de sorvete",
+			"date": "2016-12-07T09:42:32.910Z",
+			"image": "images/ice-cream.jpg",
+			"state": null
+		},
+		{
+			"content": "Seu primeiro sorvete? Não se preocupe. Existem muitas receitas disponíveis.",
+			"subheader": "Encontre sua receita favorita",
+			"date": "2016-12-06T00:00:00.000Z",
+			"image": "images/penguins.jpg",
+			"state": "Loading"
+		}
+	]
+}

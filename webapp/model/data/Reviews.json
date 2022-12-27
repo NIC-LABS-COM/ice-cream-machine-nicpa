@@ -1,0 +1,76 @@
+{
+	"UserReviews": [
+		{
+			"user": "Hybson Maia",
+			"userPic": "images/Alain_Chevalier.png",
+			"rating": 10,
+			"quote": "",
+			"date": "agora",
+			"template": true
+		},
+		{
+			"user": "Raphael Philipe",
+			"userPic": "images/Alain_Chevalier.png",
+			"rating": 10,
+			"quote": "Super! Esperei anos por um produto como este e finalmente chegou. Mal posso esperar para experimentar todos os sabores que foram entregues!",
+			"date": "2016-01-31",
+			"template": false
+		},
+		{
+			"user": "Davi Andrade",
+			"userPic": "images/Donna_Moore.png",
+			"rating": 9.5,
+			"quote": "Magnífico! O sorvete desta máquina é simplesmente delicioso.",
+			"date": "2016-04-30",
+			"template": false
+		},
+		{
+			"user": "Isabela Oliveira",
+			"userPic": "images/Elena_Petrova.png",
+			"rating": 6,
+			"quote": "Já provei melhor e já provei pior. É aceitável pelos meus padrões.",
+			"date": "2015-08-31",
+			"template": false
+		},
+		{
+			"user": "John Miller",
+			"userPic": "images/John_Miller.png",
+			"rating": 7,
+			"quote": "Tendo este pequeno ajudante esperto em casa fazendo sorvete para mim, tenho tempo para mergulhar na banheira. Impressionante!",
+			"date": "2014-02-28",
+			"template": false
+		},
+		{
+			"user": "Julie Armstrong",
+			"userPic": "images/Julie_Armstrong.png",
+			"rating": 5,
+			"quote": "Fiquei tão feliz quando chegou. Pena que a empresa não tem investido mais na tecnologia. No entanto, fiquei desapontado com a pressão de expulsão do sorvete.",
+			"date": "2013-05-31",
+			"template": false
+		},
+		{
+			"user": "Laurent Dubois",
+			"userPic": "images/Laurent_Dubois.png",
+			"rating": 8,
+			"quote": "Legal! Posso fazer meu próprio sorvete de tomate.",
+			"date": "2013-05-31",
+			"template": false
+		},
+		{
+			"user": "Monique Legrand",
+			"userPic": "images/Monique_Legrand.png",
+			"rating": 2,
+			"quote": "Infelizmente, este aparelho vem com uma gama limitada de sabores, nenhum dos quais eu gosto e o sorvete que ele faz é muito frio. Que vergonha.",
+			"date": "2013-08-09",
+			"template": false
+		},
+		{
+			"user": "Richard Wilson",
+			"userPic": "images/Richard_Wilson.png",
+			"rating": 4.5,
+			"quote": "Sorvete, você grita. Porque está muito frio. Esse é basicamente o único problema que tenho com este produto.",
+			"date": "2016-03-04",
+			"template": false
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"Temperatures": [
+		{
+			"id": "Chocolate",
+			"target": 14.0,
+			"temperature": 15.2
+		},
+		{
+			"id": "Baunilha",
+			"target": 14.0,
+			"temperature": 13.6
+		},
+		{
+			"id": "Pistachio",
+			"target": 14.5,
+			"temperature": 14.0
+		},
+		{
+			"id": "Caramelo",
+			"target": 6.8,
+			"temperature": 7.2
+		},
+		{
+			"id": "Café",
+			"target": 8.5,
+			"temperature": 9.5
+		},
+		{
+			"id": "Avelã",
+			"target": 8.8,
+			"temperature": 9.5
+		},
+		{
+			"id": "Noz",
+			"target": 8.8,
+			"temperature": 9.5
+		},
+		{
+			"id": "Coco",
+			"target": 9.5,
+			"temperature": 10.0
+		}
+	]
+}
